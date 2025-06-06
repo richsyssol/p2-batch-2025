@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
 
-body{
-    font-family: sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ID selector --> # tag */
-#main-heading{
-    color: darkolivegreen;
+#main-heading {
+  color: darkolivegreen;
 }
 
 /* Class Selector --> . tag */
-.main-section{
-    background-color: #efefef;
+.main-section {
+  background-color: #efefef;
 }
 
 /* p{ 
@@ -31,39 +31,39 @@ Developers :
  Utility Classes(pre-made classes for multi use):
  */
 
- .text-red{
-    color : red;
- }
-
- .text-green{
-    color : green;
- }
-
- .bg-grey{
-   background-color:  #cdcdcd;
- }
-
- .bg-dark {
-    background-color: rgb(42, 41, 41);
- }
-
- /* CSS Exercise 1 */
-
- .main-header{
-    background-color: rgb(215, 226, 223);
- }
-
- .blog-section{
-    background-color: beige;
+.text-red {
+  color: red;
 }
- #blog-heading1{
-    color: purple;
- }
- #blog-heading2{   
-     color: purple;
- }
 
- .blog-content{
-    color: blueviolet;
-    font-weight: 400;
- }
+.text-green {
+  color: green;
+}
+
+.bg-grey {
+  background-color: #cdcdcd;
+}
+
+.bg-dark {
+  background-color: rgb(42, 41, 41);
+}
+
+/* CSS Exercise 1 */
+
+.main-header {
+  background-color: rgb(215, 226, 223);
+}
+
+.blog-section {
+  background-color: beige;
+}
+#blog-heading1 {
+  color: purple;
+}
+#blog-heading2 {
+  color: purple;
+}
+
+.blog-content {
+  color: blueviolet;
+  font-weight: 400;
+}

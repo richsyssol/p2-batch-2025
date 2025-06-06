@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
 
-input[type = "password"]{
-    color : purple;
+input[type="password"] {
+  color: purple;
 }
-input[type = "text"]{
-    color : red;
-    background-color : aqua;
+input[type="text"] {
+  color: red;
+  background-color: aqua;
 }
 
 /* 
@@ -18,26 +18,30 @@ a[href ="https://google.co.in"]{
  Universal Selector 
  used for Particular word
 */
-a[href *="google"]{ 
-    color: red;
+a[href*="google"] {
+  color: red;
 }
 
 /*caret Symbol*/
-a[href ^="https"]{ 
-    color: green;
-}
 
-a[href $=".com"]{ 
- color: red;
-}
+/* a[href^="https"] {
+  color: green;
+} */
 
-input[type ^="t"]{ 
-    color: green;
-}
-input[password ^="t"]{ 
-    color: rebeccapurple;
+/* 
+a[href$=".com"] {
+  color: red;
+} */
 
-}
+/* 
+
+input[type^="t"] {
+  color: green;
+} */
+
+/* input[password^="t"] {
+  color: rebeccapurple;
+} */
 
 /*
 The [attribute="value"] selector is used to select elements with a specified attribute and value.
@@ -51,6 +55,5 @@ The [attribute$="value"] selector is used to select elements whose attribute val
 
 The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.
 
-Selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower"
 
 */

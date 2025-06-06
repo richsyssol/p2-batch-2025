@@ -18,7 +18,6 @@ inline Style Selector > id selector > class selector > element Selector.
 }
 */
 
-
 /*
 classes -->
 when two class are declared 
@@ -49,18 +48,17 @@ other than h1 class
 
 */
 
-h1.heading{
-    color : magenta;
+h1.heading {
+  color: magenta;
 }
 /* 0,0,1,1 ---> 11 */
-.h1class{
-    color: red;
+.h1class {
+  color: red;
 }
 /* 0,0,1,0 ----> 10 */
-h1{
-    color: green;
+h1 {
+  color: green;
 }
-
 
 /*
 **  Specificity  **
@@ -73,18 +71,18 @@ inline Style Selector > id selector > class selector > element Selector.
 */
 /* how to calculate the Specificity */
 
-div#container ul.my-games li{
-    color: red;
-    background-color: yellow;
+div#container ul.my-games li {
+  color: red;
+  background-color: yellow;
 }
 
-.favourite{
-    color:yellow ;
-    background-color: red;
+.favourite {
+  color: yellow;
+  background-color: red;
 }
-div#container ul.my-games li.favourite{
-    color:yellow ;
-    background-color: red;
+div#container ul.my-games li.favourite {
+  color: yellow;
+  background-color: red;
 }
 
 /* how to calculate the Specificity */
