@@ -12,11 +12,11 @@ inline Style Selector > id selector > class selector > element Selector.
     color: blue !important;
 }
 */
-/*
+
 #h1id{
     color: blue;
 }
-*/
+
 
 /*
 classes -->
@@ -96,3 +96,6 @@ div#container ul.my-games li.favourite {
 
 /* div#container ul.my-songs li.favourite */
 /* 0,1,2,3 -----> 123 */
+p{
+  color: crimson;
+}
