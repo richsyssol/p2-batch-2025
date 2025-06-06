@@ -1,6 +1,6 @@
 ﻿# p2-batch-2025
 
-## Part 1
+## CSS
 
 - CSS Styling Ways
 - CSS FONTS
