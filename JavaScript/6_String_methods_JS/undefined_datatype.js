@@ -36,7 +36,7 @@ console.log(typeof first);
 
 // in case of const
 
-// const first_Name; // (invalid)
+const first_Name; // (invalid)
 // error -- > missing initializer in const declaration
 // we need to initialize it in case of const.
 console.log(typeof first_Name);

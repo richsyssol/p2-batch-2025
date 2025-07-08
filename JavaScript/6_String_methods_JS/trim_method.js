@@ -1,4 +1,4 @@
-// ############# Useful String Methods ################
+ // ############# Useful String Methods ################
 
 
 // #1. Trim Method.
@@ -7,7 +7,7 @@
 The trim() method in Java String is a built-in 
 function that eliminates leading and trailing spaces.
 */
-// --------------------------------------------------------------
+// --------------------------------------------  ------------------
 
 let first_name = " Chaudhari       ";
 

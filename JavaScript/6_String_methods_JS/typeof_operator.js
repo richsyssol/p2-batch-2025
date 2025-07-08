@@ -21,8 +21,8 @@ and returns the data type of the operand passed to it.
 let age = 22;
 let name = "abcdef";
 
-// console.log(typeof age); // number
-// console.log(typeof name); // string
+ console.log(typeof age); // number
+ console.log(typeof name); // string
 
 
 // ######### Convert number to string ###################
@@ -44,7 +44,7 @@ let name = "abcdef";
 
 // ############### Convert String to number ##############
 
-let myStr = +"3";
+let myStr = +"3"; 
 console.log(typeof myStr); 
 
 // ------------------------------------------------------------

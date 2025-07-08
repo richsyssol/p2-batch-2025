@@ -5,7 +5,7 @@
 
 let str = "theworldisgreat";
 
-let newstr = str.slice(0,5);// thewo
+let newstr = str.slice(5,9);// thewo
 // 0 1 2 3 4 index values will be returned
 // will iterate from 0 to <5 and slice from str to newstr
 console.log(newstr); // thewo

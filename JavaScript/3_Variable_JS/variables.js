@@ -1,21 +1,22 @@
-"use strict";
+
 // console.log("hello World!!!");
 
 // #############   Introduction to Variables. ##################
 
 
 // Declare a Variable.
-var firstname;
-
+// const firstname;
+// var,let,const
 // 1. Variables can store some information.
-firstname = "Yatin Chaudhari";
-
+ fname = "Yatin Chaudhari";
+// firstname = "Mohit";
+// const firstname="minal";
 // 2. We can use that information later.
-console.log(firstname);
+console.log(fname);
 
 // 3. We can Change that information as well.
-firstname = "Mohit";
-console.log(firstname);
+// firstname = "Mohit";
+// console.log(firstname);
 
 // JavaScript is Case Sensitive.
 /*
