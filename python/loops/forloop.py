@@ -1,8 +1,8 @@
 # For loops are used for sequential traversal. For example: traversing a list or string or array etc. In Python, there is "for in" loop which is similar to foreach loop in other languages.
 
-n = 4
-for i in range(0, n):
-    print(i)
+# n = 4
+# for i in range(0, n):
+#     print(i)
 
 # fruits = ["apple", "banana", "cherry"]
 # for x in fruits:
@@ -27,7 +27,7 @@ for i in range(0, n):
 # for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
 for x in [0, 1, 2]:
   pass
-print(x)
+  print(x)
 
 # remove vowel form string
 # word = input("Enter word : ")
