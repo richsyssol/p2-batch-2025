@@ -1,5 +1,5 @@
-from math import *
-# import math as m
-squareRoot = math.sqrt(36)
+# from math import *
+import math as m
+squareRoot = m.sqrt(36)
 
 print(squareRoot)
