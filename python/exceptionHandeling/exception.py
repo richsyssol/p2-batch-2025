@@ -1,5 +1,5 @@
 try : 
-    var1 = 6
+    var1 = 6 
     var2 = 18/var1
 
 except ZeroDivisionError:
